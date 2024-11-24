@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    text-align: center;
+    color: white;
+    background-color: #282c34;
+}
+
+@media print {
+    .test {
+        /* display: none; */
+    }
+}
